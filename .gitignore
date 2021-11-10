@@ -25,3 +25,6 @@ yarn-error.log*
 # API_KEY
 config.js
 .vercel
+
+# Local Netlify folder
+.netlify
