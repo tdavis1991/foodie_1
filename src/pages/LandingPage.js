@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import landingImg from '../images/food-wallpaper-20100313235930-scaled.jpg';
 
 
-const Landing_page = () => {
+const LandingPage = () => {
     const navigate = useNavigate();
 
     const handleClick = e => {
@@ -24,4 +24,4 @@ const Landing_page = () => {
     )
 }
 
-export default Landing_page;
+export default LandingPage;

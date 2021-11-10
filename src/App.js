@@ -1,16 +1,16 @@
 import './App.css';
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Search_page from './pages/Search_page';
-import Landing_page from './pages/Landing_page';
+import SearchPage from './pages/SearchPage';
+import LandingPage from './pages/LandingPage';
 
 
 const App = () => {
   return (
     <div className='App'>
       <Routes>
-        <Route exact path='/' element={<Landing_page/>} />
-        <Route path='/search' element={<Search_page/>} />
+        <Route exact path='/' element={<LandingPage/>} />
+        <Route path='/search' element={<SearchPage/>} />
       </Routes>
     </div>
   )

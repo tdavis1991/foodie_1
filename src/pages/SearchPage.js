@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 import Recipes from '../components/Recipes';
 import { APP_ID, API_KEY } from '../config';
 
-const Search_page = () => {
+const SearchPage = () => {
 
   const [recipes, setRecipes] = useState([])
   const [search, setSearch] = useState('')
@@ -65,4 +65,4 @@ const Search_page = () => {
   )
 }
 
-export default Search_page;
+export default SearchPage;
