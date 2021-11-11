@@ -41,6 +41,7 @@
     ]
   },
   "devDependencies": {
-    "@angular/cli": "^13.0.1"
+    "@angular/cli": "^13.0.1",
+    "cross-env": "^7.0.3"
   }
 }
